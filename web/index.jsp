@@ -10,5 +10,6 @@
 <form action="/find" method="post">
   <input name="artist" type="text"/>
 </form>
+<a href="Register.jsp">register user</a>
 </body>
 </html>

@@ -11,4 +11,13 @@
     <servlet-name>FindInfoServlet</servlet-name>
     <url-pattern>/find</url-pattern>
   </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RegisterUserServlet</servlet-name>
+    <servlet-class>servlets.RegisterUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterUserServlet</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
 </web-app>

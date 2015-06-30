@@ -14,3 +14,12 @@ CREATE TABLE `media`.`audio` (
   `icon` LONGBLOB NULL,
   PRIMARY KEY (`id`),
   UNIQUE INDEX `id_UNIQUE` (`id` ASC));
+
+CREATE TABLE `media`.`users` (
+  `id`    INT         NOT NULL AUTO_INCREMENT,
+  `name`  VARCHAR(45) NOT NULL,
+  `pass`  VARCHAR(45) NOT NULL,
+  `email` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `id_UNIQUE` (`id` ASC)
+);

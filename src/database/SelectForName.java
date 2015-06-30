@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class SelectForName {
 
-  private static final String SELECT = "select title, artist, year, image from media.audio where artist=?";
+  private static final String SELECT = "select title, artist, year, icon from media.audio where artist=?";
 
   private ResultSet resultSet;
   private Connection connection;
